@@ -50,8 +50,8 @@ ProfileCard Pro is a production-ready React Native (Expo) application that seaml
 | *Testing camera capture and photo deletion.* | *Fetching real-time GPS coordinates.* |
 
 | **Switch to Google Maps** | |
-| :---: | :---: |
-| [![Google Maps](https://img.shields.io/badge/▶️-Watch_Demo-orange?style=for-the-badge)](https://github.com/user-attachments/assets/1e232027-6f9e-4dc6-985b-72196d437f11) | *Redirecting location coordinates to Google Maps.* |
+| :---: | 
+| [![Google Maps](https://img.shields.io/badge/▶️-Watch_Demo-orange?style=for-the-badge)](https://github.com/user-attachments/assets/1e232027-6f9e-4dc6-985b-72196d437f11) 
 
 ---
 
