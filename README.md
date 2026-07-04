@@ -46,13 +46,15 @@ ProfileCard Pro is a production-ready React Native (Expo) application that seaml
 
 | **Camera & Delete Feature** | **Finding GPS Location** |
 | :---: | :---: |
-| [![Camera & Delete](https://img.shields.io/badge/▶️-Watch_Demo-blue?style=for-the-badge)](https://github.com/user-attachments/assets/3cc0f557-02ac-4285-afcd-79957b35d595) | [![Find Location](https://img.shields.io/badge/▶️-Watch_Demo-green?style=for-the-badge)](https://github.com/user-attachments/assets/d807264a-5dca-4a99-bc3a-ded924ea8e32) |
+| [![Camera & Delete](https://img.shields.io/badge/▶️-Watch_Demo-blue?style=for-the-badge)](https://github.com/user-attachments/assets/3cc0f557-02ac-4285-afcd-79957b35d595) | [![Find Location](https://img.shields.io/badge/▶️-Watch_Demo-green?style=for-the-badge)](https://github.com/user-attachments/assets/76833608-b964-42b6-928b-eb72c6be4f39) |
 | *Testing camera capture and photo deletion.* | *Fetching real-time GPS coordinates.* |
 
 | **Switch to Google Maps** | **Photo & Delete Test** |
 | :---: | :---: |
-| [![Google Maps](https://img.shields.io/badge/▶️-Watch_Demo-orange?style=for-the-badge)](https://github.com/user-attachments/assets/a9cd2ea4-ed1a-4b4c-b174-32f1f9fdf239) | [![Photo Test](https://img.shields.io/badge/▶️-Watch_Demo-red?style=for-the-badge)](https://github.com/user-attachments/assets/a639e772-8c00-402e-a43c-068baea2a38b) |
-| *Redirecting location coordinates to Google Maps.* | *Comprehensive photo source switching and deletion flow.* |
+| [![Google Maps](https://img.shields.io/badge/▶️-Watch_Demo-orange?style=for-the-badge)](https://github.com/user-attachments/assets/1e232027-6f9e-4dc6-985b-72196d437f11
+
+
+
 
 ---
 
@@ -61,13 +63,11 @@ ProfileCard Pro is a production-ready React Native (Expo) application that seaml
 The application implements a state-of-the-art permission handling strategy:
 
 ```mermaid
-graph TD
-    A[User Tap Action] --> B{Check Permission Status}
-    B -->|Undetermined| C[Show Priming Dialog]
-    C --> D[Request Permission]
-    B -->|Denied| E[Show Denied Alert + Settings Button]
-    B -->|Granted| F[Access Feature]
-    D --> G{User Grants?}
-    G -->|Yes| F
-    G -->|No| E
-    F --> H[Display Result: Photo/Coordinates]
+
+
+
+
+
+
+
+
