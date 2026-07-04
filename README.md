@@ -53,8 +53,6 @@ ProfileCard Pro is a production-ready React Native (Expo) application that seaml
 | :---: | 
 | [![Google Maps](https://img.shields.io/badge/▶️-Watch_Demo-orange?style=for-the-badge)](https://github.com/user-attachments/assets/1e232027-6f9e-4dc6-985b-72196d437f11) |
 
----
-
 ## 🔐 Permission Flow Architecture
 
 The application implements a state-of-the-art permission handling strategy:
