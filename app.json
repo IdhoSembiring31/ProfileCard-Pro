@@ -1,29 +1,49 @@
 {
   "expo": {
-    "name": "ProfileCard-Pro",
-    "slug": "ProfileCard-Pro",
+    "name": "ProfileCard Pro",
+    "slug": "profilecard-pro",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Aplikasi membutuhkan akses kamera untuk mengambil foto profil. Foto hanya disimpan di perangkat Anda.",
+        "NSPhotoLibraryUsageDescription": "Akses galeri memungkinkan Anda memilih foto dari perpustakaan untuk foto profil.",
+        "NSLocationWhenInUseUsageDescription": "Aplikasi membutuhkan lokasi untuk menampilkan koordinat dan alamat Anda saat check-in."
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION"
+      ]
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "Aplikasi membutuhkan akses kamera untuk mengambil foto profil."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Aplikasi membutuhkan lokasi untuk menampilkan koordinat Anda."
+        }
+      ]
+    ]
   }
 }
