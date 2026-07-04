@@ -1,3 +1,6 @@
+
+
+
 # 📱 ProfileCard Pro
 
 **A Privacy-First Mobile App for Managing Profile Photos & Live Location**
@@ -46,11 +49,12 @@ ProfileCard Pro is a production-ready React Native (Expo) application that seaml
 
 | **Camera & Delete Feature** | **Finding GPS Location** |
 | :---: | :---: |
-| [![Camera & Delete](https://img.shields.io/badge/▶️-Watch_Demo-blue?style=for-the-badge)](https://github.com/user-attachments/assets/3cc0f557-02ac-4285-afcd-79957b35d595) | [![Find Location](https://img.shields.io/badge/▶️-Watch_Demo-green?style=for-the-badge)](https://github.com/user-attachments/assets/76833608-b964-42b6-928b-eb72c6be4f39) |
+| [![Camera & Delete](https://img.shields.io/badge/▶️-Watch_Demo-blue?style=for-the-badge)](
+https://github.com/user-attachments/assets/e4f62d01-0aee-4f6f-81c8-f1c5b0ea4b5a) | [![Find Location](https://img.shields.io/badge/▶️-Watch_Demo-green?style=for-the-badge)](https://github.com/user-attachments/assets/76833608-b964-42b6-928b-eb72c6be4f39) |
 | *Testing camera capture and photo deletion.* | *Fetching real-time GPS coordinates.* |
 
-| **Switch to Google Maps** | **Photo & Delete Test** |
-| :---: | :---: |
+| **Switch to Google Maps** 
+| :---: |
 | [![Google Maps](https://img.shields.io/badge/▶️-Watch_Demo-orange?style=for-the-badge)](https://github.com/user-attachments/assets/1e232027-6f9e-4dc6-985b-72196d437f11
 
 
