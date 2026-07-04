@@ -1,6 +1,3 @@
-
-
-
 # 📱 ProfileCard Pro
 
 **A Privacy-First Mobile App for Managing Profile Photos & Live Location**
@@ -49,16 +46,12 @@ ProfileCard Pro is a production-ready React Native (Expo) application that seaml
 
 | **Camera & Delete Feature** | **Finding GPS Location** |
 | :---: | :---: |
-| [![Camera & Delete](https://img.shields.io/badge/▶️-Watch_Demo-blue?style=for-the-badge)](
-https://github.com/user-attachments/assets/e4f62d01-0aee-4f6f-81c8-f1c5b0ea4b5a) | [![Find Location](https://img.shields.io/badge/▶️-Watch_Demo-green?style=for-the-badge)](https://github.com/user-attachments/assets/76833608-b964-42b6-928b-eb72c6be4f39) |
+| [![Camera & Delete](https://img.shields.io/badge/▶️-Watch_Demo-blue?style=for-the-badge)](https://github.com/user-attachments/assets/e4f62d01-0aee-4f6f-81c8-f1c5b0ea4b5a) | [![Find Location](https://img.shields.io/badge/▶️-Watch_Demo-green?style=for-the-badge)](https://github.com/user-attachments/assets/76833608-b964-42b6-928b-eb72c6be4f39) |
 | *Testing camera capture and photo deletion.* | *Fetching real-time GPS coordinates.* |
 
-| **Switch to Google Maps** 
-| :---: |
-| [![Google Maps](https://img.shields.io/badge/▶️-Watch_Demo-orange?style=for-the-badge)](https://github.com/user-attachments/assets/1e232027-6f9e-4dc6-985b-72196d437f11
-
-
-
+| **Switch to Google Maps** | |
+| :---: | :---: |
+| [![Google Maps](https://img.shields.io/badge/▶️-Watch_Demo-orange?style=for-the-badge)](https://github.com/user-attachments/assets/1e232027-6f9e-4dc6-985b-72196d437f11) | *Redirecting location coordinates to Google Maps.* |
 
 ---
 
@@ -67,11 +60,13 @@ https://github.com/user-attachments/assets/e4f62d01-0aee-4f6f-81c8-f1c5b0ea4b5a)
 The application implements a state-of-the-art permission handling strategy:
 
 ```mermaid
-
-
-
-
-
-
-
-
+graph TD
+    A[User Tap Action] --> B{Check Permission Status}
+    B -->|Undetermined| C[Show Priming Dialog]
+    C --> D[Request Permission]
+    B -->|Denied| E[Show Denied Alert + Settings Button]
+    B -->|Granted| F[Access Feature]
+    D --> G{User Grants?}
+    G -->|Yes| F
+    G -->|No| E
+    F --> H[Display Result: Photo/Coordinates]
